@@ -10,8 +10,8 @@
         "psr/container": "^1.0"
     },
     "require-dev": {
-        "dazzlesoftware/dazzle-coding-standard": "^1.0",
-        "dazzlesoftware/test": "^1.0",
+        "dazzlesoftware/dazzle-coding-standard": "^1.0|^2.0",
+        "dazzlesoftware/test": "^1.0|^2.0",
         "phpunit/phpunit": "^9.0"
     },
     "provide": {
@@ -30,7 +30,8 @@
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-2.0-dev": "2.0-dev"
+            "dev-master": "1.x-dev",
+            "dev-develop": "2.x-dev"
         }
     }
 }
